@@ -7,8 +7,44 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style/style.css">
-    <title>Page d'accueil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact</title>
+    <header></header>
+    <nav></nav>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-lg-5 col-12">
+                <div><h2 class="mb-3">Nous contacter</h2><p>Vous avez la moindre question concernant une pâtisserie ou une demande particulière ? N’hésitez pas à nous contacter via le formulaire ci-dessous. Une réponse vous sera apporté dans les 48h suivant votre demande.</p><p>Télécharger le document à remplir pour les gâteaux sur mesure <a href="download/Gateau-sur-mesure.docx"
+                    download="Document pour les gâteaux sur mesure">ici</a>.</p></div>
+                <div class="form">
+                    <label for="addressMail">Adresse email</label>
+                    <input type="email" class="form-control mb-3" id="inputMail" placeholder="Adresse email">
+                    <label for="lastName">Nom</label>
+                    <input type="text" class="form-control mb-3" id="inputLastName" placeholder="Nom">
+                    <label for="firstName">Prénom</label>
+                    <input type="text" class="form-control mb-3" id="inputFirstName" placeholder="Prénom">
+                    <label for="selectOption">Sujet</label>
+                    <select class="form-select mb-3" aria-label="demandType">
+                        <option selected>Choisir une option</option>
+                        <option>Demande de gateau sur-mesure</option>
+                        <option>Demande de renseignements</option>
+                        <option>Autres demandes</option>
+                    </select>
+                    <label for="otherRequest" class="form-label">Message</label>
+                    <textarea class="form-control mb-3" id="inputOtherRequest" rows="3"></textarea>
+                    <input type="file" class="form-control mb-3" id="inputFiles">
+                    <button class="btn colorbg1 text-white" type="submit">Envoyer</button>
+                </div>
+            </div>
+                <div class="col-lg-5 col-12"><h2 class="mb-3">Où-nous-trouver</h2><img src="assets/img/loca2.png" class="img1"title="Localisation boulangerie" alt="Localisation de la boulangerie La Versaillaise"><p class="mt-3"><span class="b">Adresse</span> : 143 Rue Yves le Coz 78000 Versailles
+                <br><span class="b">Téléphone</span> : 09 86 27 17 04
+                <br><span class="b">Email</span> : contact@laversaillaise.com</p></div>
+            </div>
+        </div>
+    </div>
 </head>
 <body>
 </body>
