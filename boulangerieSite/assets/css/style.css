@@ -39,6 +39,7 @@ h2 {
     text-align: center;
     padding: 30px;
     padding-top: 30px;
+    font-family: california;;
 }
 .button {
     background-color: #8C5935;
@@ -107,6 +108,7 @@ a:hover {
  h1 {
      display: inline-block;
      font-size: 1em;
+     font-family: california;
  }
  
  a.bouton {
@@ -312,3 +314,7 @@ a:hover {
      width:100%;
      height: 50%;
  }
+ @font-face {
+    font-family: california;
+    src: url(CaliforniaPersonalUseRegular-L37ED.ttf);
+}
