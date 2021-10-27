@@ -12,13 +12,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact</title>
-    <header></header>
-    <nav></nav>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <a href="../boulangerieSite/index.html" class="logo"><img src="../boulangerieSite/assets/img/logo.png" class="imgLogo"><h1>Versaillaise</h1></a>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon fa-3x"></span></label>
+                    <ul class="menu">
+                        <li><a href="../boulangerieSite/index.html" class="bouton">Accueil</a></li>
+                        <li><a href="../boulangerieSite/produit.html" class="bouton">Nos Produits</a></li>
+                        <li><a href="../boulangerieSite/offre.html" class="bouton">Nos Offres</a></li>
+                        <li><a href="../boulangerieSite/quisommesnous.html" class="bouton">Qui-sommes-nous?</a></li>
+                        <li><a href="../boulangerieSite/contact.html" class="bouton">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <div class="row justify-content-evenly">
             <div class="col-lg-5 col-12">
                 <div><h2 class="mb-3">Nous contacter</h2><p>Vous avez la moindre question concernant une pâtisserie ou une demande particulière ? N’hésitez pas à nous contacter via le formulaire ci-dessous. Une réponse vous sera apporté dans les 48h suivant votre demande.</p><p>Télécharger le document à remplir pour les gâteaux sur mesure <a href="download/Gateau-sur-mesure.docx"
-                    download="Document pour les gâteaux sur mesure">ici</a>.</p></div>
+                class="a1"    download="Document pour les gâteaux sur mesure">ici</a>.</p></div>
                 <div class="form">
                     <label for="addressMail">Adresse email</label>
                     <input type="email" class="form-control mb-3" id="inputMail" placeholder="Adresse email">
@@ -45,6 +63,19 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row cl-12"><span><img src="../boulangerieSite/assets/img/logo2.png" class="footerimg"></span>
+            </div>
+            <div class="row">
+                <div class="addresse col-12 col-sm-2">143 rue Yves le Coz 78000Versailles</div>
+                <div class="horaire col-12 col-sm-2">7h30 à 19h30 Fermé le lundi</div>
+                <div class="titre col-12 col-sm-4 h1">Versaillaise</div>
+                <div class="telephone col-12 col-sm-2">0986271704</div>
+                <div class="mail col-12 col-sm-2">versaillaise@contact.com</div>
+            </div>
+        </div>
+    </footer>
 </head>
 <body>
 </body>
