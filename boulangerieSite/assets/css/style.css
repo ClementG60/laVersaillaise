@@ -246,7 +246,7 @@
     }
     
     .header .menu-btn:checked~.menu {
-        max-height: 250px;
+        max-height: 300px;
     }
     
     .header .menu-btn:checked~.menu-icon .navicon {
@@ -452,7 +452,7 @@
         width: 150px;
         border-radius: 18px;
         position: relative;
-        margin-top: -350px;
+        margin-top: -50px;
         z-index: 105;
         background-color: #8C5935;
         border-color: transparent;
